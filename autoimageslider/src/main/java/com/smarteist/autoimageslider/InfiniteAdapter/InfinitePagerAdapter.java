@@ -39,7 +39,7 @@ public class InfinitePagerAdapter extends PagerAdapter {
         }
         // warning: infinite scroller actually is not infinite!
         // very big number will be cause memory problems.
-        return getRealCount() * INFINITE_SCROLL_LIMIT;
+        return getRealCount();
     }
 
     /**

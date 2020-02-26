@@ -130,7 +130,7 @@ public class SliderView extends FrameLayout
         setIndicatorRadius(indicatorRadius);
         setIndicatorPadding(indicatorPadding);
         setIndicatorMargin(indicatorMargin);
-        if(R.styleable.SliderView_sliderIndicatorMargin == null){
+        if(R.styleable.SliderView_sliderIndicatorMargin == 0){
             setIndicatorMarginCustom(indicatorMarginLeft,indicatorMarginTop,indicatorMarginRight,indicatorMarginBottom);
         }
         setIndicatorGravity(indicatorGravity);
